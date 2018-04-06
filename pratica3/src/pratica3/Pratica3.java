@@ -5,6 +5,8 @@
  */
 package pratica3;
 
+import Item.Item;
+
 /**
  *
  * @author arthur
@@ -15,7 +17,8 @@ public class Pratica3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Item i1 = new Item(1);
+        Item i2 = new Item(2);
     }
     
 }

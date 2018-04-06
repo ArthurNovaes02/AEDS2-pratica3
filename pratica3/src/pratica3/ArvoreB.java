@@ -1,5 +1,7 @@
-package cap6;
-import cap4.Item; /*-- vide Programa@{\it ~\ref{prog:interfaceitem}@ --*/
+package pratica3;
+import Item.Item; /*-- vide Programa@{\it ~\ref{prog:interfaceitem}@ --*/
+
+
 public class ArvoreB {
   private static class Pagina {
     int n; Item r[]; Pagina p[]; 
